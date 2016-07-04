@@ -1,0 +1,4 @@
+// elimina el archivo 
+git rm file.txt
+// elimina archivo del repositorio pero no del filesystem 
+git rm --cached file.txt

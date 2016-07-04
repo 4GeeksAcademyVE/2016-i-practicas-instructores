@@ -1,0 +1,25 @@
+Comandos Basicos Git
+
+
+// Inicializacion del Repositorio Git
+$git init 
+
+// URL del repositorio a clonar ejemplo: https://github.com/usuario/nombreproyecto.git
+$git clone URL 
+
+// Agregar uno o varios archivos al repositorio 
+$git add <nombre-archivo>
+$git add .
+
+// Estatus del Directorio del Repositorio
+$git status
+
+// Obtener el estatus de que ha sido modificado o se esta modificando
+$git diff
+
+// Commit de los cambios realizados, esto debe ejecutarse luego de haber agregado los archivos
+$git commit -m "mensaje a incluir en el commit"
+
+// Eliminar archivo o archivos agregados al repositorio
+$git rm <nombre-archivo>
+
