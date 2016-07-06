@@ -1,0 +1,17 @@
+.sombras-texto{
+	color: red;
+	text-shadow: 2px 2px 4px blue; 
+}
+
+.sombras-caja{
+	background: blue;
+	width: 300px;
+	height: 300px;
+	box-shadow: 5px 5px 5px black;
+}
+
+.sombras-multiples{
+	color: white;
+	font-size: 44px;
+	text-shadow: 1px 1px 2px black, 1px 1px 5px blue;
+}

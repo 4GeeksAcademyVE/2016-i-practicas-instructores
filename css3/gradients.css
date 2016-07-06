@@ -1,0 +1,24 @@
+.gradiente{
+	width: 800px;
+	height: 200px;
+	/*background: -moz-linear-gradient(left, yellow, red); 
+	background: -o-linear-gradient(left, yellow, red); 
+	background: -webkit-linear-gradient(left, yellow, red); 
+	background: linear-gradient(left, yellow, red); */
+
+	background: -moz-linear-gradient(45deg, rgb(240,120,120), rgb(150,130,65));
+}
+
+.radial{
+	width: 600px;
+	height: 400px;
+	border: 30px solid #000000;
+	background: -moz-radial-gradient(ellipse, red 20%, blue 60%, yellow 20%);
+}
+
+.radial-repeat{
+	width: 600px;
+	height: 600px;
+	background: -moz-repeating-radial-gradient(red, blue 10%, yellow 15%);
+	background: repeating-radial-gradient(red, blue 10%, yellow 15%);
+}
