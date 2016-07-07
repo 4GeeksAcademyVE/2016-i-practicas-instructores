@@ -18,6 +18,12 @@ body{
 
 .fondo-imagenes{
 	background: -moz-linear-gradient(bottom, #1e5799 75%, transparent 75%);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+75,2989d8+75 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(bottom, #1e5799 75%, transparent 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom, #1e5799 75%,transparent 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, #1e5799 75%, transparent 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
 }
 h3{
 	color: #fff;
