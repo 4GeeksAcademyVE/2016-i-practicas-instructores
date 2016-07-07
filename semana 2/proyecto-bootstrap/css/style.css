@@ -1,0 +1,34 @@
+body{
+	background: #cfc5a9;
+}
+
+/* Modificando la clase container */
+.container{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding-top: 25px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+75,2989d8+75 */
+	background: #838383; /* Old browsers */
+	background: -moz-linear-gradient(top, #838383, #ffffff); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #838383, #ffffff); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #838383,#ffffff); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838383', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.fondo-imagenes{
+	background: -moz-linear-gradient(bottom, #1e5799 75%, transparent 75%);
+}
+h3{
+	color: #fff;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	color: #fff;
+}
+
+img.bordes-oscuro{
+	border: 10px solid #000000;
+}
