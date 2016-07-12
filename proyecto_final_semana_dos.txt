@@ -1,0 +1,62 @@
+/*
+
+Proyecto Bootstrap y Jquery
+
+Pagina Referencia Bootstrap: www.getbootstrap.com
+Pagina Referencia Jquery: www.jquery.com
+
+Estructura del Proyecto: carpetas.
+
+nombre_de_su_empresa
+	css
+	js
+	images
+	fonts
+	inicio.html
+	acercade.html
+	contacto.html
+
+Deberan realizar un sitio web con 3 secciones las cuales son: 
+
+1) Pagina Principal del Sitio la cual debe contener
+	
+	* menu con todas las secciones del site, 
+	* incluir una libreria jquery para carrousel de imagenes,
+	* una barra lateral para las noticias mostrando un maximo de tres noticias 
+		con su titulo y resumen de la noticia
+	* un pie de pagina o footer con todos los enlaces descrito arriba
+
+2) Acerca de: 
+	
+	* deberan crear un contenido donde indique mision, vision y objetivos de la empresa que crearon
+
+3) Contacto:
+
+	* debera contar con un formulario de contacto, en el cual se pida al usuario, 
+	los siguientes datos: nombre, apellido, email, empresa, pais, codigo postal
+	* este formulario debera estar validado usando las tecnicas de jquery para saber si los campos estan vacios y si cumplen el tipo de dato que se esta solicitanto,
+
+
+Nota: deberan usar todas las etiquetas de html5 que se vieron en clases, tambien deden ser todos los campos obligatorios para el formulario usando bootstrap, y la validacion con jquery al momento de darle click al boton de enviar.
+
+preguntas: son libres de preguntar o buscar en internet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
