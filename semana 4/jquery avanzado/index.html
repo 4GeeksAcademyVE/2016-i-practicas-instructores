@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Avanzado</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+	<!--<h1>H1 Numero 1</h1>
+	<h1 class="prueba">H1 Numero 2</h1>
+
+
+	<ul class="menu">
+		<li class="item">Elemento 1</li>
+
+		<li class="item">Elemento 2</li>
+		<li class="item">Elemento 3</li>
+		<li class="item">Elemento 4</li>
+	</ul>-->
+
+	<button type="button">Click</button>
+	<div id="contenido">
+		
+	</div>
+
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+
+			$("button").on("click", function(){
+
+				$.ajax({
+					url: "otro.html",
+					dataType: "text",
+					success: function(data){
+						$("#contenido").append(data);
+					}
+				});
+			});
+
+
+
+
+			//$("h1").append("<p>Hola Mundo</p>");
+
+			//$("<p>Este es mi parrafo<p>").prependTo("body");
+
+			//$(".menu").append("<li>Elemento 5</li>");
+			//$(".menu").prepend("<li>Elemento 0</li>");
+
+			//$("<h2>Menu</h2>").insertBefore($(".menu"));
+			//$("<h2>Menu</h2>").insertBefore(".menu");
+			//$("<p>Hola</p>").insertAfter($(".item"));
+
+			//$("#contenido").load("otro.html #menu3", function(){
+			//	alert("Cargando Archivos desde JQuery");
+			//});
+
+
+
+			//});
+
+			//$("button").on("click", function(){
+			//	$("h1").append("<ul><li>Lista 1</li></ul>");
+		});
+
+	</script>
+
+
+
+</body>
+</html>
