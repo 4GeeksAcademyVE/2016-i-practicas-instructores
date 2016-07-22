@@ -1,0 +1,22 @@
+$.getJSON('miarchivo.json',{}, function(data){
+	$.each(data, function(index, element){
+		$('body').append($('<a>', {
+			text: element.display,
+			href: element.url
+		}));
+	});
+});
+
+$(document).ready(function () {
+    $.ajax({ 
+        url: 'miarchivo.json', 
+        success: function (data) { 
+            $.each(data, function(index, element) {
+            $('body').append($('<a>', {
+                text: element.display,
+                href: element.url
+            }));
+        });
+        }
+    });
+});
