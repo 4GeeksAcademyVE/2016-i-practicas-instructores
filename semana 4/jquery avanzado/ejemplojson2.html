@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Json</title>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript">
+
+	function cargarJson(_url, _dataType){
+		var a;
+		$.ajax({
+			url: _url,
+			dataType: _dataType,
+			success: function(data){
+
+				a=data;	
+				//alert("Mi Objeto Json: " + data);
+			  	$.each( data, function( key, val ) {
+			    	alert(key + "=" + val);
+			 	});
+			}
+		});
+		return a;
+	}
+	</script>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	var obj1 = cargarJson("cargar1.json", "json");
+	var obj2 = cargarJson("cargar2.json", "json");
+
+
+
+	alert(obj1);
+	alert(obj2);
+
+</script>
+
+</body>
+</html>
